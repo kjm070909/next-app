@@ -1,5 +1,5 @@
 import React from "react"
-import { URL } from "../(home)/page"
+import { URL } from "../../../(home)/page"
 
 
 async function getPerson(id) {
