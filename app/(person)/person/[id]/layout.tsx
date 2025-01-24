@@ -1,4 +1,5 @@
 import React from "react"
+import styles from "../../../styles/(person-style)/layout.module.css"
 
 export const metadata = {
   title: 'Next.js',
@@ -12,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={styles.body}>{children}</body>
     </html>
   )
 }

@@ -13,8 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
-      <body><Naviagte/>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }

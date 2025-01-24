@@ -1,0 +1,25 @@
+.div{background-color: black;
+display: flex;
+flex-wrap: wrap;
+color: white;
+padding: 100px;
+
+
+
+}
+
+.li {
+    background-color: rgba(113, 113, 113, 0.151);
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+
+.li img {
+    
+    width: 50%;
+    height: 50%;
+}

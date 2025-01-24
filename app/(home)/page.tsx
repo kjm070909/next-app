@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { URL } from "../about-us/constants";
-
+import styles from "../styles/(home-style)/page.module.css"
 
 
 
@@ -21,9 +21,11 @@ async function getpeople() {
 export default async function Homepage() {
     const movies = await getpeople()
     return(
-        <div >
-            {movies.map((person) => <li key={person.id}>
+        <div className={styles.div}>
+            {movies.map((person) => <li className={styles.li} key={person.id}>
                 <Link href={`/person/${person.id}`}><img src={person.squareImage}></img></Link>
+                <h4>{person.name}</h4>
+                <h5>{person.netWorth}billions / {person.industries}</h5>
                 
 
                 </li>)}

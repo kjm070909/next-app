@@ -1,0 +1,29 @@
+.person{
+    background-color: rgb(38, 38, 38);
+    padding: 40px;
+}
+
+.whole{
+    margin: 70px 110px;
+    color: white;
+    background-color: black;
+}
+
+.coin{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.coin li{
+    list-style-type: none;
+    background-color: black;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 29px;
+    margin: 15px;
+    
+}
