@@ -2,6 +2,7 @@ import React from "react"
 import { URL } from "../../../about-us/constants"
 
 
+
 async function getPerson(id) {
     const response = await fetch(`${URL}/person/${id}`)
     return response.json()
@@ -9,10 +10,10 @@ async function getPerson(id) {
 
 
 
-export default async function Persondetail({params:{id},}:{params:{id:string}}) {
+export default async function Persondetail({params}) {
 
     // const [movie,video] = await Promise.all([getPerson(id),getVideos(id)])
-    
+    const {id} = await params
     const person = await getPerson(id)
     return(
         <div>
