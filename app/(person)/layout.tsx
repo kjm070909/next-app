@@ -1,5 +1,4 @@
 import React from "react"
-import Naviagte from "../components/navigator"
 
 export const metadata = {
   title: 'Next.js',
@@ -13,8 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
-      <body><Naviagte/>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
