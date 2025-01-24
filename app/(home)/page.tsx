@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
+import { URL } from "../about-us/constants";
 
 
-export const URL = "https://billions-api.nomadcoders.workers.dev"
 
 
 export const metadata = {

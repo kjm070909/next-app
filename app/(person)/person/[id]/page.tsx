@@ -1,5 +1,5 @@
 import React from "react"
-import { URL } from "../../../(home)/page"
+import { URL } from "../../../about-us/constants"
 
 
 async function getPerson(id) {
